@@ -15,6 +15,7 @@ public:
 public:
     Unit();
     void attack(Unit &enemy);
+    virtual void spell_1(Unit &enemy);
 };
 
 #endif // UNIT_H
